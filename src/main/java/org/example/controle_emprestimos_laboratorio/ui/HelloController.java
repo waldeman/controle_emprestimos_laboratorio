@@ -1,4 +1,4 @@
-package org.example.controle_emprestimos_laboratorio;
+package org.example.controle_emprestimos_laboratorio.ui;
 
 import javafx.fxml.FXML;
 import javafx.scene.control.Label;

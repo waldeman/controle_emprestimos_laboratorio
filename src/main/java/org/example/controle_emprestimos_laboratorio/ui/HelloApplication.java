@@ -1,4 +1,4 @@
-package org.example.controle_emprestimos_laboratorio;
+package org.example.controle_emprestimos_laboratorio.ui;
 
 import javafx.application.Application;
 import javafx.fxml.FXMLLoader;

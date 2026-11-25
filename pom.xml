@@ -61,7 +61,7 @@
                         <id>default-cli</id>
                         <configuration>
                             <mainClass>
-                                org.example.controle_emprestimos_laboratorio/org.example.controle_emprestimos_laboratorio.HelloApplication
+                                org.example.controle_emprestimos_laboratorio/org.example.controle_emprestimos_laboratorio.ui.HelloApplication
                             </mainClass>
                             <launcher>app</launcher>
                             <jlinkZipName>app</jlinkZipName>
