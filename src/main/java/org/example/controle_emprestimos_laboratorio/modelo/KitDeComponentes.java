@@ -4,4 +4,9 @@ public class KitDeComponentes extends Itens{
     public KitDeComponentes(String nome) {
         super(nome, 15);
     }
+
+    @Override
+    public double calcularMulta() {
+        return 0;
+    }
 }
