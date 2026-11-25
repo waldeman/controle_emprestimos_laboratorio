@@ -1,19 +1,19 @@
 package org.example.controle_emprestimos_laboratorio.modelo;
 
-public class Projetor extends Itens {
-    public Projetor(String nome) {
-        super(nome, 2);
+public class Projetor extends Item {
+    public Projetor(String nome,String patrimonio) {
+
+        super(nome, patrimonio, 2);
     }
 
     @Override
-    public double calcularMulta() {
-        int dias = getDiasEmprestados();
+    public double calcularMulta(int diasEmprestados) {
         double valorTotal = 0;
         double valorInicial = 10;
 
-        while (dias > getPrazo()) {
+        while (diasEmprestados > getPrazo()) {
             valorTotal += valorInicial;
-            dias--;
+            diasEmprestados--;
             valorInicial += 5;
         }
         return valorTotal;

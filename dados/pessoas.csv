@@ -3,7 +3,7 @@
 # Uma linha por pessoa, com os campos separados por ponto e virgula.
 # Linhas que comecam com # sao comentarios e devem ser ignoradas pelo programa.
 #
-# matricula;nome
+# matricula;descricao
 202615029001;Ana Beatriz Souza
 202615029002;Carlos Eduardo Lima
 202615029003;Mariana Alves Rocha
