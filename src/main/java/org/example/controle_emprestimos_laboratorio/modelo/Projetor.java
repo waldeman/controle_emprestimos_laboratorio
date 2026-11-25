@@ -16,7 +16,6 @@ public class Projetor extends Itens {
             dias--;
             valorInicial += 5;
         }
-        
         return valorTotal;
     }
 }
