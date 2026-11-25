@@ -8,4 +8,8 @@ public class Pessoa {
         this.nome = nome;
         this.matricula = matricula;
     }
+
+    public String getMatricula() {
+        return matricula;
+    }
 }
