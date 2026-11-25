@@ -1,6 +1,6 @@
 package org.example.controle_emprestimos_laboratorio.modelo;
 
-public class Itens {
+public abstract class Itens {
     private String nome;
     private int prazo;
 
