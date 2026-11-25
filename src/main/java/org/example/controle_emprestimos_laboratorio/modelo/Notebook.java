@@ -7,6 +7,13 @@ public class Notebook extends Itens{
 
     @Override
     public double calcularMulta() {
-        while
+        int dias = getDiasEmprestados();
+        double multa = 0;
+        while(dias > getPrazo()){
+            multa += 5.0;
+            dias--;
+        }
+        return multa;
+        
     }
 }

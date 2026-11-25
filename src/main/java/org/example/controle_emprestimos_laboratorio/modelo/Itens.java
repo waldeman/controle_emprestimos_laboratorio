@@ -5,9 +5,14 @@ public abstract class Itens implements Mutavel{
     private int prazo;
     private int diasEmprestados;
 
-    public Itens(String nome, int prazo, int diasEmprestados) {
+    public Itens(String nome, int prazo) {
         this.nome = nome;
         this.prazo = prazo;
+        this.diasEmprestados = diasEmprestados;
+    }
+
+    public Itens(String nome, int prazo, int diasEmprestados) {
+        this(nome, prazo);
         this.diasEmprestados = diasEmprestados;
     }
 
