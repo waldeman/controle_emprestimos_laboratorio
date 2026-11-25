@@ -6,7 +6,7 @@ public class KitDeComponentes extends Itens{
     }
 
     @Override
-    public double calcularMulta() {
+    public double calcularMulta(int  diasEmprestados) {
         return 0;
     }
 }

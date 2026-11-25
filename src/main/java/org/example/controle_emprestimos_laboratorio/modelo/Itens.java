@@ -3,17 +3,11 @@ package org.example.controle_emprestimos_laboratorio.modelo;
 public abstract class Itens implements Mutavel{
     private String nome;
     private int prazo;
-    private int diasEmprestados;
+
 
     public Itens(String nome, int prazo) {
         this.nome = nome;
         this.prazo = prazo;
-        this.diasEmprestados = diasEmprestados;
-    }
-
-    public Itens(String nome, int prazo, int diasEmprestados) {
-        this(nome, prazo);
-        this.diasEmprestados = diasEmprestados;
     }
 
     @Override
@@ -25,7 +19,4 @@ public abstract class Itens implements Mutavel{
         return prazo;
     }
 
-    public int getDiasEmprestados() {
-        return diasEmprestados;
-    }
 }

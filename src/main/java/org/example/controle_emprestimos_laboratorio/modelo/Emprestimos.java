@@ -14,6 +14,15 @@ public class Emprestimos {
         emprestimos.add(emprestimo);
     }
 
-    public void removerEmprestimo() {
+    public void removerEmprestimo(Pessoa pessoa) {
+        for (Emprestimo emprestimo : this.emprestimos) {
+            if (emprestimo.getPessoa().equals(pessoa)){
+                this.emprestimos.remove(emprestimo);
+            }
+        }
+    }
+
+    public List<Emprestimo> getEmprestimos() {
+        return emprestimos;
     }
 }
