@@ -15,7 +15,7 @@ public abstract class Item implements Mutavel{
 
     @Override
     public String toString() {
-        return "Nome: " + this.descricao +" Prazo: " + this.prazo;
+        return "Nome: " + this.descricao +" Descrição: " + this.descricao;
     }
 
     public int getPrazo() {
