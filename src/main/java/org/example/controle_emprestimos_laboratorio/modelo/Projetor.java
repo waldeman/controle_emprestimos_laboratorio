@@ -1,7 +1,7 @@
 package org.example.controle_emprestimos_laboratorio.modelo;
 
 public class Projetor extends Item {
-    public Projetor(String descricao,String patrimonio) {
+    public Projetor(String patrimonio, String descricao) {
 
         super(descricao , patrimonio, 2);
     }
