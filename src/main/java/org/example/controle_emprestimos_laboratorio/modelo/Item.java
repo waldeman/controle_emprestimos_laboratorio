@@ -6,7 +6,7 @@ public abstract class Item implements Mutavel{
     private int prazo;
 
 
-    public Item(String descricao, String patrimonio, int prazo) {
+    public Item(String patrimonio, String descricao, int prazo) {
         this.descricao = descricao;
         this.patrimonio = patrimonio;
 
