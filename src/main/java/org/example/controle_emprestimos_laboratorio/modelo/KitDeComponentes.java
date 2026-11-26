@@ -1,9 +1,9 @@
 package org.example.controle_emprestimos_laboratorio.modelo;
 
 public class KitDeComponentes extends Item {
-    public KitDeComponentes(String nome,String patrimonio) {
+    public KitDeComponentes(String descricao,String patrimonio) {
 
-        super(nome,patrimonio,15);
+        super(descricao,patrimonio,15);
     }
 
     @Override

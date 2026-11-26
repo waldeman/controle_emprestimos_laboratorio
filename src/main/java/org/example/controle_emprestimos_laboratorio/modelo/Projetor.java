@@ -1,9 +1,9 @@
 package org.example.controle_emprestimos_laboratorio.modelo;
 
 public class Projetor extends Item {
-    public Projetor(String nome,String patrimonio) {
+    public Projetor(String descricao,String patrimonio) {
 
-        super(nome, patrimonio, 2);
+        super(descricao , patrimonio, 2);
     }
 
     @Override

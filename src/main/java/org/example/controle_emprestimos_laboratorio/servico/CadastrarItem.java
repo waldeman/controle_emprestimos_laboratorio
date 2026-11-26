@@ -10,11 +10,11 @@ import java.io.IOException;
 public class CadastrarItem {
     public void cadastrarItemNoArquivo(Item item) throws IOException {
         String tipo;
-        if (item instanceof Notebook){
+        if (item instanceof Notebook) {
             tipo = "Notebook";
-        }else if(item instanceof KitDeComponentes){
+        } else if (item instanceof KitDeComponentes) {
             tipo = "Kit de componentes";
-        }else {
+        } else {
             tipo = "Projetor";
         }
         String patrimonio = item.getPatrimonio();

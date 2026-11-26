@@ -1,8 +1,8 @@
 package org.example.controle_emprestimos_laboratorio.modelo;
 
 public class Notebook extends Item {
-    public Notebook(String nome,String patrimonio) {
-        super(nome, patrimonio, 7);
+    public Notebook(String descricao,String patrimonio) {
+        super(descricao, patrimonio, 7);
     }
 
     @Override
