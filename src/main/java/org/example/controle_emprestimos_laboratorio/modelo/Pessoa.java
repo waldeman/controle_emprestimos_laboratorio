@@ -9,6 +9,11 @@ public class Pessoa {
         this.matricula = matricula;
     }
 
+    @Override
+    public String toString() {
+        return "Nome: " + nome + " | Matricula: " + matricula;
+    }
+
     public String getMatricula() {
         return matricula;
     }
