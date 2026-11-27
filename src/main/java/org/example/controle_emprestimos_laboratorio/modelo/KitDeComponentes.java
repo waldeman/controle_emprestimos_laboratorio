@@ -1,5 +1,7 @@
 package org.example.controle_emprestimos_laboratorio.modelo;
 
+import java.time.LocalDate;
+
 public class KitDeComponentes extends Item {
     public KitDeComponentes(String patrimonio, String descricao) {
 
@@ -7,7 +9,7 @@ public class KitDeComponentes extends Item {
     }
 
     @Override
-    public double calcularMulta(int  diasEmprestados) {
+    public double calcularMulta(LocalDate diaEmprestado) {
         return 0;
     }
 }
