@@ -8,6 +8,7 @@ public class Salvar {
     public static void salvar(String tipo, String patrimonio, String descricao, String caminho) throws IOException {
         try (BufferedWriter bufferedWriter = new BufferedWriter(new FileWriter(caminho, true))){
             bufferedWriter.write(tipo + ";" + patrimonio + ";" + descricao);
+            bufferedWriter.newLine();
         }catch (IOException e){
             throw new  IOException("Erro ao adicionar o item no arquivo!");
         }
